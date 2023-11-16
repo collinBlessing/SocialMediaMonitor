@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_color_default">#FF6C6C6C</color>
+    <color name="primary_color">#2196F3</color> <!-- Blue color, you can choose another color -->
+    <color name="primary_dark_color">#1976D2</color> <!-- Darker shade of blue -->
+    <color name="accent_color">#FF4081</color> <!-- Pink color, you can choose another color -->
+    <color name="desired_button_color">#4CAF50</color> <!-- Pink color, you can choose another color -->
+</resources>
