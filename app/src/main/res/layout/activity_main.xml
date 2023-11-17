@@ -11,33 +11,19 @@
     android:visibility="visible"
     tools:context=".MainActivity"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
     >
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:layout_gravity="start"
+        />
 <LinearLayout
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent" >
-
-
-<!--    <com.google.android.material.navigation.NavigationView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:id="@+id/nav_view"-->
-<!--        app:headerLayout="@layout/header"-->
-<!--        app:menu="@menu/main_menu"-->
-<!--        android:layout_gravity="start"-->
-<!--        />-->
-
-
-    <ImageView
-        android:id="@+id/toogle"
-        android:layout_width="59dp"
-        android:layout_height="41dp"
-        android:layout_gravity="end"
-        android:padding="10dp"
-        app:srcCompat="@drawable/baseline_density_medium_24" />
-
-
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
