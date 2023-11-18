@@ -288,9 +288,6 @@ public class MainActivity extends AppCompatActivity {
     public void openMenu(View view) {
         // Add your logic to open the menu here
         // For example, you can show a popup menu or navigate to another activity
-        if (!drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.openDrawer(GravityCompat.START);
-        }
         Toast.makeText(this, "Menu Clicked", Toast.LENGTH_SHORT).show();
     }
 

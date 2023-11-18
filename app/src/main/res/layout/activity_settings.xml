@@ -1,0 +1,47 @@
+<!-- activity_settings.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Switch
+        android:id="@+id/notifications_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Notifications"
+        android:layout_below="@id/settings_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/dark_mode_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:layout_below="@id/notifications_switch"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <SeekBar
+        android:id="@+id/volume_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dark_mode_checkbox"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Add more settings UI components as needed -->
+
+</RelativeLayout>
